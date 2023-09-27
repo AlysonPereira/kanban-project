@@ -7,7 +7,7 @@ type Props = {
   id: number;
   title: string;
   taskState: string;
-  onTaskUpdate: Function
+  onTaskUpdate: Function;
   onDeleteTask: Function
 }
 

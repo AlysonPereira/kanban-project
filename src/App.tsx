@@ -12,7 +12,7 @@ const generateId = () => {
 }
 
 const App: React.FC = () => {
-  //container onde as tasks serão adicionadas
+  //Controle de estado do container onde as tasks serão adicionadas
   const [tasks, setTasks] = useState([])
 
   //função para adicionar tasks
@@ -62,6 +62,3 @@ const App: React.FC = () => {
 }
 
 export default App;
-
-//<TaskList title="Fazendo"/>
-//<TaskList title="Completo"/>
